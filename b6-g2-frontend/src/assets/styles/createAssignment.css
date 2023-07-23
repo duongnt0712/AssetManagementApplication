@@ -1,0 +1,54 @@
+.inputCateName {
+  border-color: #b4b4b4;
+  width: 200px;
+  height: 30px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+.ant-btn-primary {
+  background-color: red;
+}
+.spanNewCate {
+  width: 300px;
+  padding-right: 200px;
+}
+.btnSubmitCate {
+  margin-top: 20px;
+  display: flex;
+  justify-content: right;
+  align-items: right;
+}
+.ant-form-item-label label {
+  float: left;
+}
+.ant-radio-checked .ant-radio-inner {
+  border-color: red;
+  background: red;
+}
+.ant-radio-checked .ant-radio-inner::after {
+  background: white;
+}
+.submitButton,
+.submitButton:hover {
+  background-color: #ee1734;
+  color: white;
+}
+.submitButton:disabled,
+.submitButton:disabled:hover {
+  background-color: lightcoral;
+  color: white;
+}
+#space-create {
+  display: flex;
+  justify-content: flex-end;
+}
+.header {
+  display: flex;
+  padding-bottom: 14px;
+  font-size: 18px;
+  color: red;
+  font-weight: 700;
+}
+.disable .ant-input[disabled]{
+  color: rgba(0, 0, 0, 0.85);
+}

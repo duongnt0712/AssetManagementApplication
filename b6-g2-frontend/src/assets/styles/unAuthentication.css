@@ -1,0 +1,9 @@
+.contentBody {
+  display: flex;
+  min-height: 60vh;
+  gap: 30px;
+  padding-top: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,43 @@
+.ant-picker-header-next-btn {
+    pointer-events: none;
+    opacity: 0;
+  }
+  .ant-picker-header-super-next-btn {
+    pointer-events: none;
+    opacity: 0;
+  }
+  .ant-picker-header-prev-btn {
+    pointer-events: none;
+    opacity: 0;
+  }
+  .ant-picker-header-super-prev-btn {
+    pointer-events: none;
+    opacity: 0;
+  }
+
+  .editUserForm .ant-form-item-label label {
+    width: 100px;
+    font-size: 16px;
+    float: left;
+  }
+  
+  .editUserForm .ant-radio-checked .ant-radio-inner{
+    border-color: red;
+    background: red;
+    
+  }
+  
+  .editUserForm .ant-radio-checked .ant-radio-inner::after{
+    background: white;
+    
+  }
+  
+#space-edit {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.ant-input[disabled]{
+  color: rgba(0, 0, 0, 0.85);
+}
+

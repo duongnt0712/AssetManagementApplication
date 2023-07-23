@@ -1,0 +1,66 @@
+.inputCateName {
+  border-color: #b4b4b4;
+  width: 200px;
+  height: 30px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+.ant-btn-primary {
+  background-color: red;
+}
+.spanNewCate {
+  width: 300px;
+  padding-right: 200px;
+}
+.btnSubmitCate {
+  margin-top: 20px;
+  display: flex;
+  justify-content: right;
+  align-items: right;
+}
+.ant-form-item-label label {
+  float: left;
+}
+.ant-radio-checked .ant-radio-inner {
+  border-color: red;
+  background: red;
+}
+.ant-radio-checked .ant-radio-inner::after {
+  background: white;
+}
+.submitButton,.btnSubmitCategory, .btnSubmitCategory:hover,
+.submitButton:hover {
+  background-color: #ee1734;
+  color: white;
+}
+.submitButton:disabled,.btnSubmitCategory:disabled:hover, .btnSubmitCategory:disabled,
+.submitButton:disabled:hover {
+  background-color: lightcoral;
+  color: white;
+}
+.buttonSubmitCate:disabled,
+.buttonSubmitCate:disabled:hover {
+  background-color: lightcoral;
+  color: white;
+}
+#space-create {
+  display: flex;
+  justify-content: flex-end;
+}
+.state .ant-form-item-required {
+  padding-bottom: 8.5px;
+}
+.selectCateBox .rc-virtual-list {
+  height: 180px;
+}
+.selectCateBox .ant-select-item {
+  height: 38px;
+}
+.buttonSubmitCate .ant-space-item {
+  background: #ffffff;
+  position: absolute;
+  z-index: revert;
+  width: 500px;
+  height: 38px;
+}
+

@@ -1,0 +1,40 @@
+.ant-picker-header-next-btn {
+  pointer-events: none;
+  opacity: 0;
+}
+.ant-picker-header-super-next-btn {
+  pointer-events: none;
+  opacity: 0;
+}
+.ant-picker-header-prev-btn {
+  pointer-events: none;
+  opacity: 0;
+}
+.ant-picker-header-super-prev-btn {
+  pointer-events: none;
+  opacity: 0;
+}
+.editAssetForm .ant-form-item-label label {
+  width: 100px;
+  font-size: 16px;
+  float: left;
+}
+
+.editAssetForm .ant-radio-checked .ant-radio-inner {
+  border-color: red;
+  background: red;
+}
+
+.editAssetForm .ant-radio-checked .ant-radio-inner::after {
+  background: white;
+}
+#space {
+  display: flex;
+  justify-content: flex-end;
+}
+.state .ant-form-item-required {
+  padding-bottom: 10px;
+}
+.ant-select-disabled.ant-select:not(.ant-select-customize-input) .ant-select-selector{
+  color: rgba(0, 0, 0, 0.85);
+}

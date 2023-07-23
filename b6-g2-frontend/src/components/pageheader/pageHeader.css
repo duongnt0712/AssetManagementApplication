@@ -1,0 +1,41 @@
+.pageHeader {
+  padding-bottom: 10px;
+}
+.toolBar {
+  overflow: hidden;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+.functionBar {
+  float: left;
+  overflow: hidden;
+  padding-right: 20px;
+}
+.createButton {
+  float: right;
+  overflow: hidden;
+}
+.icon {
+  float: left;
+  border-style: solid;
+}
+.ant-picker-header-next-btn {
+  pointer-events: none;
+  opacity: 0;
+}
+.ant-picker-header-super-next-btn {
+  pointer-events: none;
+  opacity: 0;
+}
+.ant-picker-header-prev-btn {
+  pointer-events: none;
+  opacity: 0;
+}
+.ant-picker-header-super-prev-btn {
+  pointer-events: none;
+  opacity: 0;
+}
+.tableName {
+  color: #ee1734;
+  font-size: large;
+}
